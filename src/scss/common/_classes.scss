@@ -1,0 +1,42 @@
+.container {
+  max-width: min(100% - 40px, 1200px);
+  margin-inline: auto;
+  text-align: center;
+}
+
+.item-row {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+
+  &__title {
+    margin-bottom: 15px;
+  }
+}
+
+.svg {
+  &__circle,
+  &__ellipse,
+  &__text { 
+    transition: 0.5s ease-out;
+  }
+  &:hover {
+    .svg__rect {   
+      fill: #000;
+    }
+    .svg__circle {   
+      fill: #b91343;
+      r: 250;
+    }
+    .svg__text {   
+      fill: #E7EAEF;
+    }
+    .svg__ellipse {   
+      opacity: 1;
+      rx: 100;
+      ry: 50;
+    }
+  }
+ 
+}

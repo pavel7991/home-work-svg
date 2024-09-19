@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework-SVG</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>ДЗ 13.1. Мистецтво SVG: фігури та анімація</h1>
+
+    <div class="item-row">
+      <h2 class="item-row__title">Circle</h2>
+      <div class="item-row__content">
+        <svg width="300" height="300">
+          <circle cx="150" cy="150" r="100" fill="#A59CD3" stroke="#4B2D9F" stroke-width="5" />
+        </svg>
+      </div>
+    </div>
+
+    <div class="item-row">
+      <h2 class="item-row__title">Ellipse</h2>
+      <div class="item-row__content">
+        <svg width="300" height="300">
+          <ellipse cx="150" cy="150" rx="100" ry="50" fill="#F7C815" stroke="#EC9704" stroke-width="5" opacity="0.5" />
+        </svg>
+      </div>
+    </div>
+
+    <div class="item-row">
+      <h2 class="item-row__title">Rectangle</h2>
+      <div class="item-row__content">
+        <svg width="300" height="300">
+          <rect x="50" y="50" width="200" height="100" fill="#82071B" stroke="#D71232" stroke-width="5" />
+        </svg>
+      </div>
+    </div>
+
+    <div class="item-row">
+      <h2 class="item-row__title">Square</h2>
+      <div class="item-row__content">
+        <svg width="300" height="300">
+          <rect x="50" y="50" width="200" height="200" fill="#7B7C81" stroke="#D4DBE2" stroke-width="5" />
+        </svg>
+      </div>
+    </div>
+
+
+    <div class="item-row">
+      <h2 class="item-row__title">Hover</h2>
+      <div class="item-row__content">
+        <svg class="svg" width="300" height="300">
+          <rect x="0" y="0" width="300" height="300" fill="#7bb526" stroke="#347403" stroke-width="5" />
+          <circle class="svg__circle" cx="150" cy="150" r="100" fill="#2D4628" />
+          <ellipse class="svg__ellipse" cx="150" cy="150" rx="5" ry="5" fill="#ED413E" opacity="0" />
+          <text class="svg__text" x="108" y="160" font-size="45" fill="#ffffff">SVG</text>
+        </svg>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
